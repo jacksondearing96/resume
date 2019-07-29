@@ -1,0 +1,338 @@
+body {
+  padding-top: 7px;
+  font-weight: 300;
+  position: relative;
+  font-size: 13px;
+  background-color: lightgrey;
+}
+
+#page {
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 21cm;
+  height: 29.7cm;
+  box-shadow: 5px 5px 5px grey;
+}
+
+hr {
+  margin-top: 5px;
+}
+
+h1 {
+  font-weight: 200 !important;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 17px;
+  float:left;
+  font-weight: normal;
+}
+
+.clear {
+  clear: both;
+}
+
+.left {
+  clear: both;
+  float: left;
+  text-align: left;
+}
+
+.right {
+  clear: both;
+  float: right;
+  text-align: right;
+}
+
+.left-small-right-big {
+  clear: both;
+  float: right;
+  text-align: right;
+}
+
+.divider-left{
+  border-left: solid 0.8px lightgrey;
+}
+
+.divider-right{
+  border-right: solid 0.8px lightgrey;
+}
+
+i {
+  font-size: 23px;
+  margin: 10px;
+}
+
+.header-icon:hover {
+  color: white !important;
+}
+
+.header-icon {
+  font-size: 23px;
+}
+
+#more-info {
+  display: inline;
+  margin-left: 15px;
+}
+
+.pointer:hover
+{
+  cursor: pointer;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.nudge-up-10 {
+  margin-top: -10px;
+}
+
+.email-address {
+  color: inherit;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  height:40px;
+  width:40px;
+  margin-top:25px;
+  margin-bottom:25px;
+  border-width:solid 1px;
+  border-color: blue;
+}
+
+.card-footer {
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+}
+
+.title-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 8px;
+  margin-top: 60px;
+}
+
+#first-title-icon {
+  margin-top: 0px;
+}
+
+.company-logo {
+  max-height:70px;
+  max-width:70px;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+#google-logo {
+  max-height: 55px;
+  max-width: 55px;
+}
+
+#uni-games-logo {
+  max-width: 150px;
+  width: 125px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#marathon-logo {
+  max-width: 150px;
+  width: 90px;
+}
+
+#first-company-logo {
+  margin-top:0px;
+}
+
+.left-divider {
+  border-left: solid 0.8px lightgrey;
+}
+
+.right-divider {
+  border-right: solid 0.8px lightgrey;
+}
+
+#contact-info {
+  margin-bottom:0px !important;
+}
+
+i {
+  font-size: inherit;
+}
+
+#marathon-title {
+  margin-top:20px;
+}
+
+.project-icon {
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.center {
+  float: none;
+}
+
+.top-buffer {
+  margin-top: 40px;
+}
+
+.bottom-buffer {
+  margin-bottom: 40px;
+}
+
+.project-row {
+  margin-top: 100px;
+}
+
+.technology-list li {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.technology-logo {
+  max-height: 35px;
+  margin-right: 20px;
+}
+
+#puppeteer-logo {
+  max-height: 40px;
+  height: 40px;
+}
+
+.dark {
+  background-color: rgb(20,20,20);
+}
+
+.photography-header {
+  height: calc(100vh - 56px);
+  background: url("../img/photos/adelaide-header.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: brightness(35%);
+}
+
+.navbar {
+  position: absolute;
+}
+
+.name {
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+#camera-icon {
+  width: 8%;
+  z-index: 100;
+  position: absolute;
+  top: calc(50% - 4%);
+  left: calc(50% - 4%);
+  filter: brightness(100%);
+}
+
+.project-header-hr {
+  margin-bottom: 30px;
+}
+
+.content-images {
+  text-align: center;
+}
+
+.first-image {
+  margin-top: 100px;
+}
+
+.content-image {
+  margin-bottom: 50vh;
+  max-width: 95%;
+  max-height: 90vh;
+}
+
+.last-image {
+  margin-bottom: 30px;
+}
+
+#emma {
+  height: 100vh;
+}
+
+.demo-button {
+  margin-top: 30px;
+}
+
+#code 
+{
+  height:15px;
+  display:inline-block;
+  vertical-align: center;
+}
+
+.h1 
+{
+  display:inline-block;
+  margin: 0px;
+  margin-left:15px;
+  font-size:36px;
+  letter-spacing:3px;
+  font-weight:lighter;
+}
+a, a:hover 
+{
+  text-decoration:none;
+  color:inherit;
+}
+
+#footer {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.footer-icon {
+  margin: 0px 20px;
+  font-size: 15px;
+  color: rgb(150,150,150)
+}
+
+.contact-info {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+#header {
+  margin: 0px;
+}
+
+#volunteering-header {
+}
+
+#education-header {
+  margin-top: 18px;
+}

@@ -153,7 +153,7 @@ p {
 
 #left-content {
   padding: 20px;
-  background-color: rgb(200,200,200);
+  background-color: rgb(210,210,210);
   text-align: center;
   margin-left: 10px;
   width: 198px;
@@ -246,3 +246,25 @@ p {
 #projects h3, .volunteering h3 {
   padding-top: 0px !important;
 }
+
+
+
+/* ##########  DARK THEME  ########## */
+/* page {
+  background-color: rgb(230,230,230)
+}
+#left-content {
+  background-color: rgb(30,30,30);
+  color: rgb(190,190,190);
+}
+#left-content hr {
+  border-top: 1px solid rgba(200,200,200,.2);
+}
+#left-content i {
+  color: rgb(190, 190, 190);
+}
+#left-content i:hover {
+  color: rgb(255, 255, 255);
+} */
+
+

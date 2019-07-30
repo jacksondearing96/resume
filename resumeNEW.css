@@ -110,6 +110,11 @@ i {
   font-size: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  color: rgb(90,90,90);
+}
+
+#left-content i:hover {
+  color: black;
 }
 
 .h1 
@@ -189,7 +194,7 @@ p {
 }
 
 .role {
-  width: 178px;
+  width: 170px;
   margin: 0px;
   text-align: left;
   float: left;
@@ -198,6 +203,7 @@ p {
 .volunteering .role {
   width: 230px;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .role p {
@@ -211,6 +217,10 @@ p {
   float: right;
 }
 
+.info ul {
+  padding-left: 30px;
+}
+
 .role i {
   font-size: inherit;
   margin: 0px;
@@ -221,10 +231,18 @@ p {
 }
 
 #projects .info {
-  padding-left: 10px;
+  padding-left: 14px;
   width: 326px !important;
 }
 
 .no-padding-bottom {
   padding-bottom: 0px;
+}
+
+#right-content h3 {
+  padding-top: 10px;
+}
+
+#projects h3, .volunteering h3 {
+  padding-top: 0px !important;
 }

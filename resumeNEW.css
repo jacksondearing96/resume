@@ -222,7 +222,7 @@ p {
 
 #projects .info {
   padding-left: 10px;
-  width: 310px;
+  width: 326px !important;
 }
 
 .no-padding-bottom {

@@ -1,259 +1,288 @@
-
 body {
-  background: rgb(204,204,204); 
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 1.5;
-  color: #212529;
-  text-align: center;
+    background: rgb(204, 204, 204);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
 }
 
 page {
-  background: rgb(245,245,245);
-  text-align: left;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  overflow: hidden;
+    background: rgb(245, 245, 245);
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
-page[size="A4"] {  
-  width: 21cm;
-  height: 29.7cm; 
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
 }
 
 @media print {
-  body, page {
-    margin: 0;
-    box-shadow: 0;
-  }
+    body,
+    page {
+        margin: 0;
+        box-shadow: 0;
+    }
 }
 
 body {
-  font-weight: 300;
-  font-size: 13px;
-  background-color: lightgrey;
-  max-width: 21cm;
-  max-height: 29.7cm;
+    font-weight: 300;
+    font-size: 13px;
+    background-color: lightgrey;
+    max-width: 21cm;
+    max-height: 29.7cm;
 }
 
 #page {
-  background-color: white;
-  width: 21cm !important;
-  height: 29.7cm !important;
-  position: relative;
+    background-color: white;
+    width: 21cm !important;
+    height: 29.7cm !important;
+    position: relative;
 }
 
 hr {
-  max-width: 210mm !important;
-  max-height: 297mm !important;
-  display: block;
-  unicode-bidi: isolate;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,.1);
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-  margin-top: 0px;
-  margin-bottom: 8px;
+    max-width: 210mm !important;
+    max-height: 297mm !important;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 
 ul {
-  margin: 0px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 h1 {
-  font-weight: 200 !important;
-  letter-spacing: 0.1em;
-  margin: 0px;
+    font-weight: 200 !important;
+    letter-spacing: 0.1em;
+    margin: 0px;
 }
 
 h2 {
-  font-weight: 200;
-  font-size: 23px;
-  margin: 0px;
-  text-align: center;
-  letter-spacing: 2px;
-  margin-top: 10px;
+    font-weight: 200;
+    font-size: 23px;
+    margin: 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
 }
 
 h3 {
-  font-size: 17px;
-  font-weight: bolder;
-  margin: 0px;
-  letter-spacing: 0.5px;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 0px;
+    letter-spacing: 0.5px;
 }
 
 .left {
-  clear: both;
-  float: left;
-  text-align: left;
+    clear: both;
+    float: left;
+    text-align: left;
 }
 
 .right {
-  clear: both;
-  float: right;
-  text-align: right;
+    clear: both;
+    float: right;
+    text-align: right;
 }
 
-.pointer:hover
-{
-  cursor: pointer;
+.pointer:hover {
+    cursor: pointer;
 }
 
 i {
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 7px;
-  color: rgb(90,90,90);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: rgb(160, 160, 160);
 }
 
 #left-content i:hover {
-  color: black;
+    color: black;
 }
 
-.h1 
-{
-  display:inline-block;
-  margin: 0px;
-  font-size:45px;
-  letter-spacing:3px;
-  font-weight:lighter;
-  padding-top: 6px;
-  line-height: 1.2;
-  margin-bottom: 10px;
+.h1 {
+    display: inline-block;
+    margin: 0px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    padding-top: 6px;
+    line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 b {
-  font-weight: 300;
+    font-weight: 300;
 }
 
-a, a:hover {
-  text-decoration:none;
-  color:inherit;
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 #volunteering-header {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 #project-header {
-  margin-top: -10px;
+    margin-top: -10px;
 }
 
 p {
-  margin: 0px;
-  padding-bottom: 15px;
+    margin: 0px;
+    padding-bottom: 15px;
 }
 
 #left-content {
-  padding: 20px;
-  background-color: rgb(220,220,220);
-  text-align: center;
-  margin-left: 10px;
-  width: 198px;
-  float: left;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    margin-left: 10px;
+    width: 198px;
+    float: left;
 }
 
 #left-content ul {
-  padding: 0px;
+    padding: 0px;
 }
 
 #left-content li {
-  list-style-type: none;
-  margin-bottom: 8px;
-  line-height: 1.3;
+    list-style-type: none;
+    margin-bottom: 8px;
+    line-height: 1.3;
 }
 
 #left-content h2 {
-  margin-top:26px;
+    margin-top: 26px;
 }
 
 #left-content hr {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #left-content h3 {
-  display: block;
+    display: block;
 }
 
 #right-content {
-  width: 515px !important;
-  float: right;
-  padding: 10px;
-  padding-left: 20px;
+    width: 515px !important;
+    float: right;
+    padding: 10px;
+    padding-left: 20px;
 }
 
 .row {
-  display: inline-block;
+    display: inline-block;
 }
 
 .role {
-  width: 170px;
-  margin: 0px;
-  text-align: left;
-  float: left;
+    width: 170px;
+    margin: 0px;
+    text-align: left;
+    float: left;
 }
 
 .volunteering .role {
-  width: 230px;
-  margin-right: 20px;
-  margin-bottom: 15px;
+    width: 230px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 
 .role p {
-  padding-bottom: 0px;
-
+    padding-bottom: 0px;
 }
 
 .info {
-  width: 335px !important;
-  margin: 0px;
-  float: right;
+    width: 335px !important;
+    margin: 0px;
+    float: right;
 }
 
 .info ul {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
 .role i {
-  font-size: inherit;
-  margin: 0px;
+    font-size: inherit;
+    margin: 0px;
 }
 
 #projects .row {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #projects .info {
-  padding-left: 14px;
-  width: 326px !important;
+    padding-left: 14px;
+    width: 326px !important;
 }
 
 .no-padding-bottom {
-  padding-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 #right-content h3 {
-  padding-top: 10px;
+    padding-top: 10px;
 }
 
-#projects h3, .volunteering h3 {
-  padding-top: 0px !important;
+#projects h3,
+.volunteering h3 {
+    padding-top: 0px !important;
 }
 
+#languages-section li {
+    display: block;
+    text-align: left;
+}
+
+.bar {
+    margin-top: 1px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    height: 3px;
+}
+
+#languages-section .cpp {
+    width: 100%;
+}
+
+#languages-section .javascript {
+    width: 80%;
+}
+
+#languages-section .java {
+    width: 50%;
+}
+
+#languages-section .python {
+    width: 50%;
+}
 
 
 /* ##########  DARK THEME  ########## */
+
+
 /* page {
   background-color: rgb(230,230,230)
 }
@@ -270,5 +299,3 @@ p {
 #left-content i:hover {
   color: rgb(255, 255, 255);
 } */
-
-

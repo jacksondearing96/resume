@@ -1,6 +1,6 @@
 body {
     background: rgb(204, 204, 204);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: -apple-system, BlinkMacSystemFont;
     font-weight: 300;
     font-size: 13px;
     line-height: 1.5;
@@ -14,6 +14,7 @@ page {
     display: block;
     margin: 0 auto;
     margin-bottom: 0.5cm;
+    margin-right: 5px;
     box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
     overflow: hidden;
 }
@@ -187,10 +188,11 @@ p {
 }
 
 #right-content {
-    width: 515px !important;
+    width: 501px !important;
     float: right;
     padding: 10px;
     padding-left: 20px;
+    margin-right: 14px;
 }
 
 .row {
@@ -198,10 +200,11 @@ p {
 }
 
 .role {
-    width: 170px;
+    width: 160px;
     margin: 0px;
     text-align: left;
     float: left;
+    margin-right: 10px;
 }
 
 .volunteering .role {
@@ -260,7 +263,7 @@ p {
     margin-top: 1px;
     background-color: rgb(180, 180, 180);
     border-radius: 5px;
-    height: 3px;
+    height: 2px;
 }
 
 #languages-section .cpp {
@@ -299,3 +302,35 @@ p {
 #left-content i:hover {
   color: rgb(255, 255, 255);
 } */
+
+#marathon-heading {
+    margin-top: 20px;
+}
+
+.job h3 {
+    display: inline-block;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.job p {
+    display: inline-block;
+    float: right;
+    padding: 0px;
+    padding-top: 4px;
+    margin: 0px;
+}
+
+.job ul {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.job {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.position {
+    font-weight: 600;
+}

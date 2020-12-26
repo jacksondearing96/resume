@@ -143,10 +143,6 @@ a:hover {
     color: inherit;
 }
 
-#volunteering-header {
-    margin-top: 10px;
-}
-
 #project-header {
     margin-top: -10px;
 }
@@ -207,12 +203,6 @@ p {
     margin-right: 10px;
 }
 
-.volunteering .role {
-    width: 230px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-}
-
 .role p {
     padding-bottom: 0px;
 }
@@ -266,6 +256,15 @@ p {
     height: 2px;
 }
 
+.bar {
+    display: none;
+    text-align: center;
+}
+
+#languages-section ul, #languages-section li {
+    text-align: center;
+}
+
 #languages-section .cpp {
     width: 100%;
 }
@@ -303,30 +302,56 @@ p {
   color: rgb(255, 255, 255);
 } */
 
-.job h3 {
-    display: inline-block;
-    padding: 0px !important;
-    margin: 0px !important;
+.position {
+    font-weight: 600;
 }
 
-.job p {
+.job .more-info, .job h3 {
     display: inline-block;
-    float: right;
-    padding: 0px;
-    padding-top: 4px;
+    padding: 0px !important;
     margin: 0px;
 }
 
+.job .more-info {
+    float: right;
+    margin-top: 3px !important;
+}
+
+.job div {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.job p {
+    padding-bottom: 0px;
+}
+
+#right-content > div:nth-child(2) > p:nth-child(4) {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .job ul {
-    margin-top: 0px;
-    padding-left: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.when {
+    margin-right: 5px;
+}
+
+.job .position {
+    margin-left: 5px;
 }
 
 .job {
     width: 100%;
-    margin-top: 10px;
 }
 
-.position {
-    font-weight: 600;
+.volunteering p {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
 }

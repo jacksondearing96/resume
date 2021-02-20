@@ -111,7 +111,7 @@ h3 {
 }
 
 i {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 7px;
@@ -130,7 +130,7 @@ i {
     font-weight: lighter;
     padding-top: 6px;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 b {
@@ -172,7 +172,7 @@ p {
 }
 
 #left-content h2 {
-    margin-top: 26px;
+    margin-top: 22px;
 }
 
 #left-content hr {
@@ -308,13 +308,10 @@ p {
 
 .job .more-info, .job h3 {
     display: inline-block;
-    padding: 0px !important;
-    margin: 0px;
 }
 
 .job .more-info {
     float: right;
-    margin-top: 3px !important;
 }
 
 .job div {
@@ -358,4 +355,81 @@ p {
 
 #hack {
     margin-bottom: 5px;
+}
+
+.line-spacing {
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.contact-info ul {
+    text-align: left;
+}
+
+.contact-info i {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.work-header {
+    display: block;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px !important;
+    margin-bottom: 7px;
+    padding-top:0px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.work-header h3 {
+    display: inline-block;
+    padding: 0px !important;
+    float-left;
+}
+
+.work-header .more-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3px;
+}
+
+.work-header img {
+    display: inline-block;
+    float-left;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+img {
+    height: 29px;
+}
+
+#maptek-heading {
+    padding-right: 10px !important;
+}
+
+#cea-logo {
+    height: 33px;
+    margin-right: 4px;
+}
+
+#adelaide-uni-logo {
+    height: 33px;
+}
+
+.less, .when {
+    color: rgb(140,140,140);
 }
